@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+ 
+    </style>
+</head>
+
+<body>
+    <div class="equations">
+        <span class="equation">E = mc²</span>
+        <span class="equation">F = ma</span>
+        <span class="equation">∇ ⋅ E = ρ/ε₀</span>
+        <span class="equation">ψ = e^(iθ)</span>
+        <span class="equation">H = T + V</span>
+    </div>
+    
+    <nav class="navbar">
+        <div class="logo">PhysicsHub</div>
+        <ul class="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Concepts</a></li>
+            <li><a href="">Simulations</a></li>
+            <li><a href="">Experiments</a></li>
+            <li><a href="">Resources</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="" class="btn">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="toggle">
+        <button id="theme-toggle">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M21 12.79A9 9 0 0 1 11.21 3 9 9 0 1 0 21 12.79Z"/>
+            </svg>
+        </button>
+    </div>
+    <div class="container">
+
+        <div class="box">
+        </div>
+    </div>
+    <div class="mainhead">
+        <div class="head">
+            Physics Made
+        </div>
+        <div class="simple">
+            Simple.
+        </div>
+    </div>
+    <p class="tagline">  
+        Explore physics through interactive simulations, step-by-step guides,  
+        and real-world experiments—all designed to make learning intuitive and fun.  
+    </p>
+    <div class="searchbox">
+        <div class="search">
+            <input class="text" type="text" placeholder="Type a physics concept.. (e.g, Quantum Mechanics, Newton’s Laws)">
+        </div>
+            <button class="searchbtn">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64">
+                    <path d="M 28.300781 10.800781 C 17.100781 10.800781 7.9003906 20.000391 7.9003906 31.400391 C 7.9003906 42.800391 17.000781 52 28.300781 52 C 33.500781 52 38.200781 50.000781 41.800781 46.800781 L 43 48 L 41.900391 49.099609 C 41.300391 49.699609 41.300391 50.700781 41.900391 51.300781 L 50.900391 60.400391 C 51.200391 60.700391 51.6 60.900391 52 60.900391 C 52.4 60.900391 52.8 60.800391 53 60.400391 L 57 56.400391 C 57.5 55.700391 57.500391 54.799219 56.900391 54.199219 L 47.900391 45.099609 C 47.600391 44.799609 47.200781 44.699219 46.800781 44.699219 C 46.400781 44.699219 46.000781 44.799609 45.800781 45.099609 L 44.800781 46.199219 L 43.599609 45 C 46.799609 41.3 48.699219 36.600391 48.699219 31.400391 C 48.699219 20.000391 39.500781 10.800781 28.300781 10.800781 z M 28.300781 13.900391 C 37.900781 13.900391 45.699219 21.8 45.699219 31.5 C 45.699219 41.2 37.900781 49 28.300781 49 C 18.700781 49 10.900391 41.2 10.900391 31.5 C 10.900391 21.8 18.700781 13.900391 28.300781 13.900391 z M 28.400391 20.099609 C 23.600391 20.099609 19.400781 23.099609 17.800781 27.599609 C 17.500781 28.299609 17.9 29.100781 18.5 29.300781 C 18.6 29.300781 18.8 29.400391 19 29.400391 C 19.5 29.400391 20.000781 29 20.300781 28.5 C 21.500781 25 24.800391 22.699219 28.400391 22.699219 C 29.100391 22.699219 29.699219 22.100391 29.699219 21.400391 C 29.699219 20.700391 29.100391 20.099609 28.400391 20.099609 z M 18.900391 32.5 C 18.200391 32.5 17.599609 33.000781 17.599609 33.800781 L 17.599609 34 C 17.599609 34.7 18.100391 35.300781 18.900391 35.300781 C 19.600391 35.300781 20.199219 34.7 20.199219 34 L 20.199219 33.800781 C 20.199219 33.000781 19.700391 32.5 18.900391 32.5 z M 46.900391 48.300781 L 53.800781 55.300781 L 51.900391 57.199219 L 45 50.199219 L 46.900391 48.300781 z"></path>
+                    </svg> 
+            </button>
+    </div>
+    <div class="t">
+    </div>
+    
+    <div class="apod-container">
+        <div class="flow ">
+            <h2><span style="color: #778DA9;">Astronomy Picture</span> of the Day</h2>
+            
+        </div>
+        <div class="flow1">
+
+            <div class="right">
+                
+                <div id="apod-loading">Loading space magic 🌌</div>
+                <div id="apod-error"></div>
+                <div id="apod-media" >
+                </div>
+            </div>
+            <div class="left">
+                <div id="apod-content" style="display: none;">
+                    
+                    <h3 id="apod-title"></h3>
+                    <p id="apod-date"></p>
+                    <p id="apod-explanation"></p>
+                    <p id="apod-copyright"></p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div id="quote-display">
+        "Loading"
+      </div>
+      <section class="calculator-container">
+        <h2><span class="ke">Kinetic Energy</span> <span class="cal">
+            Calculator
+        </span></h2>
+        <div class="calculator">
+          <div class="input-group">
+            <label for="mass">Mass (kg):</label>
+            <input type="number" id="mass" placeholder="Enter mass">
+          </div>
+          <div class="input-group">
+            <label for="velocity">Velocity (m/s):</label>
+            <input type="number" id="velocity" placeholder="Enter velocity">
+          </div>
+          <div class="result" id="ke-result"></div>
+          <button id="calculate-btn">Calculate</button>
+        </div>
+      </section>
+      <footer class="site-footer">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3 class="footer-heading">PhysicsHub</h3>
+            <p class="footer-tagline">Making physics accessible and interactive</p>
+          </div>
+          <div class="footer-section">
+            <h4 class="footer-subheading">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="" class="footer-link">Home</a></li>
+              <li><a href="" class="footer-link">Concepts</a></li>
+              <li><a href="" class="footer-link">Simulations</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4 class="footer-subheading">Connect</h4>
+            <div class="social-links">
+              <a href="" class="social-icon"><svg  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 72 72">
+                <path d="M 36 12 C 22.745 12 12 22.745 12 36 C 12 49.255 22.745 60 36 60 C 49.255 60 60 49.255 60 36 C 60 22.745 49.255 12 36 12 z M 36 20 C 44.837 20 52 27.163 52 36 C 52 43.284178 47.128298 49.420174 40.46875 51.355469 C 40.198559 51.103128 39.941627 50.74363 39.953125 50.285156 C 39.980125 49.233156 39.953125 46.778953 39.953125 45.876953 C 39.953125 44.328953 38.972656 43.230469 38.972656 43.230469 C 38.972656 43.230469 46.654297 43.316141 46.654297 35.119141 C 46.654297 31.957141 45.003906 30.310547 45.003906 30.310547 C 45.003906 30.310547 45.872125 26.933953 44.703125 25.501953 C 43.393125 25.359953 41.046922 26.753297 40.044922 27.404297 C 40.044922 27.404297 38.457406 26.753906 35.816406 26.753906 C 33.175406 26.753906 31.587891 27.404297 31.587891 27.404297 C 30.586891 26.753297 28.239687 25.360953 26.929688 25.501953 C 25.760688 26.933953 26.628906 30.310547 26.628906 30.310547 C 26.628906 30.310547 24.974609 31.956141 24.974609 35.119141 C 24.974609 43.316141 32.65625 43.230469 32.65625 43.230469 C 32.65625 43.230469 31.782197 44.226723 31.693359 45.652344 C 31.180078 45.833418 30.48023 46.048828 29.8125 46.048828 C 28.2025 46.048828 26.978297 44.483766 26.529297 43.759766 C 26.086297 43.045766 25.178031 42.447266 24.332031 42.447266 C 23.775031 42.447266 23.503906 42.726922 23.503906 43.044922 C 23.503906 43.362922 24.285781 43.585781 24.800781 44.175781 C 25.887781 45.420781 25.866281 48.21875 29.738281 48.21875 C 30.196553 48.21875 31.021102 48.11542 31.677734 48.025391 C 31.674106 48.90409 31.663893 49.74536 31.677734 50.285156 C 31.688158 50.700354 31.476914 51.032045 31.236328 51.279297 C 24.726159 49.25177 20 43.177886 20 36 C 20 27.163 27.163 20 36 20 z"></path>
+                </svg></a>
+              <a href="" class="social-icon linke">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30">
+                    <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"></path>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="copyright">&copy; 2024 PhysicsHub. Built with HTML, CSS, and JavaScript.</p>
+        </div>
+      </footer>
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
