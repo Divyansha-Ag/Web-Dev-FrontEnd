@@ -1,2 +1,4 @@
 # Web-Dev-FrontEnd
-A growing collection of modern, responsive, and stylish web components built with HTML, CSS, and Node.js.
+Projects demonstrating modern front-end development. Features include API integration, CSS animations, and responsive design principles.
+Each folder contains a standalone project.
+Tech: HTML5 | CSS3 | JavaScript
