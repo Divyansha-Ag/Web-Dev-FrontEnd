@@ -177,4 +177,162 @@ ul li {
         justify-content: flex-start;
     }
     
+    
 }
+.sec1{
+    background-color:#333 ;
+    color: #ffffff;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    padding: 5vw 15vw;
+    gap: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+.container_p1{
+    display: flex;
+    flex-direction: column;
+    max-width: 30vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.container_p1 .msg{
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom:5px ;
+}
+.container_p1 .signup{
+    font-size: 17px;
+}
+.container_p2{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px 40px;
+    background-color: white;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    border-radius: 10px;
+    color: #00b6d1;
+}
+.container_p2 .subscribe{
+    font-size: 25px;
+    text-align: center;
+}
+.container_p2 .enter{
+    color: black;
+    text-align: left;
+    width: 100%;
+    
+}
+div .lab{
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 3px;
+}
+
+#email{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgba(51, 51, 51, .16);
+}
+.signbtn{
+    background-color: #00b6d1;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 550;
+    font-size: 15px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px  #3a6c7463;
+}
+.signbtn:hover{
+    background-color: #0aadc6;
+    transition: 150ms;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    padding: 0  15vw;
+    line-height: 30px;
+}
+.exe , .free{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 9px;
+
+}
+.desc_exe a{
+    text-decoration: none;
+    color: #0aadc6;
+}
+.desc_free{
+    padding-bottom: 30px;
+}
+footer{
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.foot a{
+    text-decoration: none;
+    color: #333;
+}
+.news{
+    padding-top: 2px;
+    max-width: 250px;
+}
+.news .subscribe{
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.news .lab{
+    text-align: left;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60vw;
+}
+.inclogo{
+    font-size: 13px;
+}
+.inclogo img{
+    width: 195px;
+}
+.socials svg{
+    width: 40px;
+    height: 40px;
+    transition: transform 150ms;
+}
+.socials{
+    display: flex;
+    margin-top: 19px;
+
+}
+.socials svg:hover{
+    transform:scale(1.15);
+    
+}
+    
